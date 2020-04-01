@@ -9,4 +9,19 @@ ReactDOM.render(
 );
 
 
+function NameLenght(props){
+    return <h1>The name {props.name} contains {props.name.NameLenght} characters!</h1>;
+}
+
+function App() {
+    return (
+      <div>
+        <NameLenght name="Erika"/>
+        <NameLenght name="George"/>
+        <NameLenght name="Phillip"/>
+      </div>
+    );
+}
+
+
 
